@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import Header from '../components/header/index';
 import { Grid } from '@material-ui/core'
 import OneCard from '../components/card';
-import CopyrightIcon from '@material-ui/icons/Copyright';
 import Button from '@material-ui/core/Button';
 
 const Home: NextPage = () => {
@@ -27,14 +26,14 @@ const Home: NextPage = () => {
                       gameLink={'https://yuma140902.github.io/RustyCraft/'}
                       gameLinkTitle={'ゲームを見てみる！'}
                       imgLink={'/minecraft.png'} 
-                      shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！$url=&hashtags=KCS,矢上祭'}
+                      shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！&url=https://yagami-phi.vercel.app/&hashtags=KCS,矢上祭'}
                     />
                     <OneCard title={'OldHouse'}
                       description={'10分ほどでできる脱出ゲーム。W、A、S、Dキーで移動、スペースでジャンプ、マウスで視点の回転、Tabでアイテムボックスの開閉、アイテムを右クリックで使用、ドヤやスイッチは右クリックです。'}
                       gameLink={'https://drive.google.com/file/d/13sLLDyUH4q_gqJbTXoiIo1z7LCBQqO2Z/view?usp=sharing'}
                       gameLinkTitle={'ゲームをダウンロードする！'}
                       imgLink={'/OldHouse.png'}
-                      shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！$url=&hashtags=KCS,矢上祭'}
+                      shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！&url=https://yagami-phi.vercel.app/&hashtags=KCS,矢上祭'}
                     />
                   </div>
                 </Grid>
