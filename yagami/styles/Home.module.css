@@ -119,3 +119,25 @@
     flex-direction: column;
   }
 }
+
+/* add */
+.onecard {
+  margin: 0 5%;
+}
+
+.header_image {
+  height: 12%;
+  width: 12%;
+}
+
+.buttonElem {
+  background-color: #0070f3;
+}
+
+.spacer_small {
+  height: 10px
+}
+
+.spacer_medium {
+  height: 30px
+}
