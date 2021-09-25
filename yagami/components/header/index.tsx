@@ -22,11 +22,11 @@ const Header = () => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
-        <Toolbar variant="dense">
+      <AppBar　position="static">
+        <Toolbar className={styles.appbar} variant="dense">
           <div>
             <a href={'https://kcs1959.jp'}>
-              <Image src='/kcslogo.png' height={80} width={160} />
+              <Image src='/kcslogo.png' height={90} width={180} />
             </a>
           </div>
           <div>
