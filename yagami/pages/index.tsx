@@ -42,11 +42,11 @@ const Home: NextPage = () => {
                       shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！&url=https://yagami-phi.vercel.app/&hashtags=KCS,矢上祭'}
                     />
                     <OneCard title={'OldHouse'}
-                      description={'10分ほどでできる脱出ゲーム。W、A、S、Dキーで移動、スペースでジャンプ、マウスで視点の回転、Tabでアイテムボックスの開閉、アイテムを右クリックで使用、ドヤやスイッチは右クリックです。'}
+                      description={'10分ほどでできる脱出ゲーム。W、A、S、Dキーで移動、スペースでジャンプ、マウスで視点の回転、Tabでアイテムボックスの開閉、アイテムを右クリックで使用、ドヤやスイッチは左クリックです。'}
                       gameLink={'https://drive.google.com/file/d/13sLLDyUH4q_gqJbTXoiIo1z7LCBQqO2Z/view?usp=sharing'}
                       gameLinkTitle={'ゲームをダウンロードする！'}
                       imgLink={'/OldHouse.png'}
-                      shareLink={'https://twitter.com/intent/tweet?text=RustCraftをプレイしました！&url=https://yagami-phi.vercel.app/&hashtags=KCS,矢上祭'}
+                      shareLink={'https://twitter.com/intent/tweet?text=OldHouseをプレイしました！&url=https://yagami-phi.vercel.app/&hashtags=KCS,矢上祭'}
                     />
                   </div>
                 </Grid>
